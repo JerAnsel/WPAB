@@ -12,6 +12,10 @@ nav {
     /* margin-top: 10px; */
 }
 
+.menu {
+    color: white;
+}
+
 .nav-section {
     display: flex;
     flex-direction: column;
@@ -42,12 +46,25 @@ nav {
 
 @media(max-width: 480px) {
     nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+        display: block;
+        padding: 0 20px;
+        box-sizing: border-box;
+        position: sticky;
+        top: 0;
         /* margin-top: 10px; */
     }
 
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Logo {
+        display: flex;
+        align-items: center;
+        font-family: cursive;
+    }
     .nav-section {
         height: 9vh;
     }
@@ -63,6 +80,7 @@ nav {
     .thumb-container {
         padding: 10px;
         width: 70vw;
+        margin: 1.5vh 0;
         height: min-content;
     }
 
@@ -73,9 +91,14 @@ nav {
 
     .info {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        font-size: calc(12px + 3vw);
+        font-size: calc(12px + 2vw);
+    }
+
+    .artist {
+        font-weight: 900;
+        margin: 0.4em 0 0.2em 0;
     }
 
 }

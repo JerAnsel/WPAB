@@ -7,33 +7,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" type="text/css" href="../css/brushGallery.css">
     <title>With Brush and Pen</title>
-
+    <script src="https://kit.fontawesome.com/6fe49490dc.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="green-nav">
-        <div id="Brush" class="nav-section"><p>With Brush</p></div>
-        <div id="Pen" class="nav-section"><p>With Pen</p></div>
-        <div id="About" class="nav-section"><p>About</p></div>
+    <nav class="red-nav">
+        <div class="main-nav">
+            <div class="Logo"><img src="../logo1.png">WITH BRUSH AND PEN</div>
+            <a class="menu" href="javascript:void(0);" onclick="toggleNav()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+        <div class="links">
+            <div id="Brush" class="nav-section"><p>With Brush</p></div>
+            <div id="Pen" class="nav-section"><p>With Pen</p></div>
+            <div id="About" class="nav-section"><p>About</p></div>
+        </div>
     </nav>
+    <div class="location"><span class="loc-item">Brush</span> > <span class="loc-item">Ceramic</span> > <span class="loc-item">9-13</span></div>
     <main class="gallery">
         <div class="thumb-container">
             <img src="images/worldBottle.jpg">
-            <div class="info">World in a Bottle</div>
+            <div class="info"><p class="artist">Jasmine K.</p>World in a Bottle</div>
         </div>
         <div class="thumb-container">
             <img src="images/seasideTown.jpg">
-            <div class="info">Seaside Town</div>
+            <div class="info"><p class="artist">Jonathan M.</p>Seaside Town</div>
         </div>
         <div class="thumb-container">
             <img src="images/seaCreatures.jpg">
-            <div class="info">Sea Creatures</div>
+            <div class="info"><p class="artist">Rachel S.</p>Sea Creatures</div>
         </div>
         <div class="thumb-container">
             <img src="images/dragonShip.jpg">
-            <div class="info">Dragon Ship</div>
+            <div class="info"><p class="artist">Yonah L.</p>Dragon Ship</div>
         </div>
-        <div class="thumb-container">p</div>
-        <div class="thumb-container">p</div>
     </main>
+    <script src="../js/nav.js"></script>
 </body>
 </html>
