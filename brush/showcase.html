@@ -9,7 +9,7 @@
     <title>With Brush and Pen</title>
     <script src="https://kit.fontawesome.com/6fe49490dc.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="showcase_load()">
     <nav class="red-nav">
         <div class="main-nav">
             <div class="Logo"><img src="../logo1.png">WITH BRUSH AND PEN</div>
@@ -25,32 +25,12 @@
     </nav>
     <div class="location"><span class="loc-item">Brush</span> > <span class="loc-item">Ceramic</span> > <span class="loc-item">9-13</span></div>
     <main class="gallery">
-        <div class="thumb-container" onclick="storeData(this)">
-            <a href="showcase.html">
-                <img src="images/worldBottle.jpg">
-                <div class="info"><p class="artist">Jasmine K.</p>World in a Bottle</div>
-            </a>
-        </div>
-        <div class="thumb-container" onclick="storeData(this)">
-            <a href="showcase.html"> 
-                <img src="images/seasideTown.jpg">
-                <div class="info"><p class="artist">Jonathan M.</p>Seaside Town</div>
-            </a>
-        </div>
-        <div class="thumb-container" onclick="storeData(this)">
-            <a href="showcase.html">
-                <img src="images/seaCreatures.jpg">
-                <div class="info"><p class="artist">Rachel S.</p>Sea Creatures</div>
-            </a>
-        </div>
-        <div class="thumb-container" onclick="storeData(this)">
-            <a href="showcase.html">
-                <img src="images/dragonShip.jpg">
-                <div class="info"><p class="artist">Yonah L.</p>Dragon Ship</div>
-            </a>
+        <div class="thumb-container">
+            <img src="">
+            <div class="info"><p class="artist"></p></div>
         </div>
     </main>
     <script src="../js/nav.js"></script>
-    <script src="../js/showcase-store.js"></script>
+    <script src="../js/showcase-load.js"></script>
 </body>
 </html>

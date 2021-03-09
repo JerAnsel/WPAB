@@ -3,6 +3,10 @@ html, body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -77,9 +81,13 @@ nav {
         grid-auto-rows: min-content;
     }
 
+    .gallery a {
+        color: #000;
+    }
+
     .thumb-container {
         padding: 10px;
-        width: 70vw;
+        width: 80vw;
         margin: 1.5vh 0;
         height: min-content;
     }
@@ -87,6 +95,8 @@ nav {
     .thumb-container img {
         width: 100%;
         height: auto;
+        border-radius: 5px;
+
     } 
 
     .info {
