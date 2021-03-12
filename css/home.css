@@ -50,6 +50,18 @@ main {
 
 @media(max-width: 480px) {
     #overlay-text {
-        font-size: 12vh;
+        font-size: 12vw;
+    }
+
+    nav {
+        padding: 0;
+    }
+    
+    main {
+        height: 100%;
+        background-image: url(../art1.png);
+        background-position-y: center;
+        background-position-x: right 30%;
+        background-size: cover;
     }
 }
