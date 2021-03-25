@@ -1,0 +1,163 @@
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 18vh;
+    font-family: /*'Indie Flower',*/ cursive;
+    position: sticky;
+    top: 0;
+}
+
+.nav-section {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.nav-section p {
+    margin: 0;
+}
+
+.links {
+    font-size: calc(20px + 1vw);
+    display: flex;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    font-size: calc(22px + 0.4vw);
+}
+
+.Logo img {
+    height: 14vh;
+    margin: 10px 20px;
+}
+
+.menu {
+    display: none;
+}
+
+.location {
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumb-container {
+    padding: 10px;
+    width: 20vw;
+    margin: 1.5vh 0;
+}
+
+.thumb-container img {
+    width: 20vw;
+    height: 1fr;
+    
+}
+
+.info {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(14px);
+}
+
+.artist {
+    font-weight: 700;
+    margin: 0.4em 0 0.2em 0;
+}
+
+@media(max-width: 480px) {
+    nav {
+        display: block;
+        box-sizing: border-box;
+        /* margin-top: 10px; */
+    }
+
+    .main-nav {
+        padding: 0 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        
+    .nav-section {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 13vh;
+        font-size: calc(16px + 1.5vw);
+        font-weight: 800;
+        justify-content: center;
+        align-items: center;
+        /* margin: 0 20px; */
+        font-family: /*'Indie Flower',*/ cursive;
+    }
+
+    .Logo {
+        display: flex;
+        align-items: center;
+        font-family: cursive;
+        font-size: 18px;
+    }
+
+    .Logo img {
+        height: 45px !important;
+        width: 45px !important;
+    }
+
+    .gallery {
+        height: 1fr;
+        margin: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-auto-rows: min-content;
+    }
+
+    .gallery a {
+        color: #000;
+    }
+
+    .thumb-container {
+        padding: 10px;
+        width: 80vw;
+        margin: 1.5vh 0;
+    }
+
+    .thumb-container img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+
+    } 
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: calc(12px + 2vw);
+    }
+
+    .artist {
+        font-weight: 900;
+        margin: 0.4em 0 0.2em 0;
+    }
+
+}

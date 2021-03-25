@@ -1,0 +1,28 @@
+@import "gallery_template.css";
+@import "template.css";
+
+main {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;  
+    opacity: .5; 
+    z-index: -1;
+    background-image: url(../brush/images/background2.png);
+    background-size: cover
+}
+
+.showcase img {
+    width: 20vw;
+}
