@@ -62,10 +62,9 @@ main {
 #overlay-text {
     /* display: none; */
     display: flex;
-    font-size: 18vh;
+    font-size: 17vh;
     font-family: 'Indie Flower', cursive;
-    justify-content: center;
-    text-align: center;
+    line-height: 0.9em;
 }
 
 #IMG {
