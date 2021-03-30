@@ -60,9 +60,8 @@ main {
 }
 
 #overlay-text {
-    /* display: none; */
     display: flex;
-    font-size: 17vh;
+    font-size: 8vw;
     font-family: 'Indie Flower', cursive;
     line-height: 0.9em;
 }
@@ -76,11 +75,12 @@ main {
 
 @media(max-width: 480px) {
     #overlay-text {
-        font-size: 12vw;
+        display: none;
     }
 
     nav {
         padding: 0;
+        display: block;
     }
     
     main {
