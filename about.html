@@ -5,45 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" type="text/css" href="css/brushGallery.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
     <title>With Brush and Pen</title>
     <script src="https://kit.fontawesome.com/6fe49490dc.js" crossorigin="anonymous"></script>
     <style>
-        .gallery {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
 
-        .gallery div {
-            width: 70vw;
-            margin-top: 40px;
-        }
-
-        #AACI-logo {
-            width: 200px;
-            margin-bottom: 30px;
-        }
-
-        h2 {
-            margin-top: 40px;
-            margin-bottom: 20px;
-        }
     </style>
 </head>
 <body>
-    <nav class="red-nav">
+    <nav class="blue-nav">
         <div class="main-nav">
-            <div class="Logo"><img src="logo1.png">WITH BRUSH AND PEN</div>
+            <a href="index.html">
+                <div class="Logo">
+                    <img src="logo1.png">
+                    WITH BRUSH AND PEN
+                </div>
+            </a>
             <a class="menu" href="javascript:void(0);" onclick="toggleNav()">
                 <i class="fas fa-bars"></i>
             </a>
         </div>
         <div class="links">
-            <div id="Brush" class="nav-section"><p>With Brush</p></div>
-            <div id="Pen" class="nav-section"><p>With Pen</p></div>
-            <div id="About" class="nav-section"><p>About</p></div>
+            <div class="dropdown" href="#">
+                <div id="Brush" class="nav-section dropbtn">
+                    <p>With Brush</p>
+                </div>
+                <div class="dropdown-content">
+                    <a href="brush/galleryPaint_6_9.html">6-9</a>
+                    <a href="brush/galleryPaint_10_13.html">10-13</a>
+                    <a>14-18</a>
+                </div>
+            </div>
+            <div id="Pen" class="nav-section">
+                <p>With Pen</p>
+            </div>
+            <div id="About" class="nav-section">
+                <p>About</p>
+            </div>
         </div>
     </nav>
     <main class="gallery">
