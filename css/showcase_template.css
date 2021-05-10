@@ -20,9 +20,46 @@ main::before {
     opacity: .5; 
     z-index: -1;
     background-image: url(../brush/images/background2.png);
-    background-size: cover
+    background-size: cover;
+    object-fit: fill;
+    
 }
 
-.showcase img {
-    width: 20vw;
+.showcase {
+    display: flex;
+    margin-left: 10%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.showcase-img-h {
+    margin-right: 60px;
+    height: 55vh;
+}
+
+.showcase-img-v {
+    margin-right: 100px;
+    height: 70vh;
+}
+
+.info {
+    background-color: white;
+    border: 1px gray solid;
+    box-shadow: rgba(0,0,0,0.3) 2px 2px;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20%;
+}
+
+.map {
+    height: 70px;
+    width: 60px;
+}
+
+.info p {
+    text-align: center;
 }
