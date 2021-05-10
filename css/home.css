@@ -73,6 +73,20 @@ main {
     transform: rotate(-2deg);
 }
 
+.dropbtn {
+    padding: 0 !important;
+}
+
+.dropdown {
+    width: 100%;
+}
+
+.dropdown-content a {
+    font-size: calc(16px + 1.5vw);
+    font-weight: 800;
+    font-family: /*'Indie Flower',*/ cursive;
+}
+
 @media(max-width: 480px) {
     #overlay-text {
         display: none;
