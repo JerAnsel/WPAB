@@ -15,18 +15,18 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    align-items: center;
     box-sizing: border-box;
     height: 100%;
 }
-
+/* 
 .nav-section p {
     margin: 0;
-}
+} */
 
 .links {
     font-size: calc(20px + 1vw);
     display: flex;
+    background-color: inherit;
 }
 
 .Logo {
@@ -85,6 +85,14 @@ nav {
     margin: 0.4em 0 0.2em 0;
 }
 
+.age {
+    margin: 0.4em 0 0.2em 0;
+}
+
+.title {
+    margin: 0.4em 0 0.2em 0;
+}
+
 @media(max-width: 480px) {
     nav {
         display: block;
@@ -124,6 +132,10 @@ nav {
     .Logo img {
         height: 45px !important;
         width: 45px !important;
+    }
+
+    .menu {
+        display: block;
     }
 
     .gallery {
