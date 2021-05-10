@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta Cache-Control: no-cache>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" type="text/css" href="../css/brushGallery.css">
     <title>With Brush and Pen</title>
@@ -18,16 +19,21 @@
                     WITH BRUSH AND PEN
                 </div>
             </a>
-            <a class="menu" href="javascript:void(0);" onclick="toggleNav()">
+            <a class="menu" href="#" onclick="toggleNav()">
                 <i class="fas fa-bars"></i>
             </a>
         </div>
         <div class="links">
-            <a href="brush/galleryPaint.html">
-                <div id="Brush" class="nav-section">
+            <div class="dropdown" href="#">
+                <div id="Brush" class="nav-section dropbtn">
                     <p>With Brush</p>
                 </div>
-            </a>
+                <div class="dropdown-content">
+                    <a href="galleryPaint_6_9.html">6-9</a>
+                    <a href="#">10-13</a>
+                    <a>14-18</a>
+                </div>
+            </div>
             <a href="#">
                 <div id="Pen" class="nav-section">
                     <p>With Pen</p>
@@ -40,59 +46,60 @@
             </a>
         </div>
     </nav>
-    <div class="location"><span class="loc-item">Brush</span> > <span class="loc-item">Ceramic</span> > <span class="loc-item">9-13</span></div>
+    <div class="location"><span class="loc-item">Brush</span> > <span class="loc-item">10-13</span></div>
     <main class="gallery">
+    
         <div class="gallery-column">
             <div class="thumb-container" onclick="storeData(this)">
                 <a href="showcase.html">
-                    <img src="images/worldBottle.jpg">
-                    <div class="info"><p class="artist">Jasmine K.<br>Age 13</p>World in a Bottle</div>
+                    <img src="images/10-13/Ayelet Deitch - Age 13 - Storm at Sea - h.jpg">
+                    <div class="info"><p class="artist">Ayelet Deitch</p><p class="age">Age 13</p><p class="title">Storm at Sea</p></div>
                 </a>
             </div>
             <div class="thumb-container" onclick="storeData(this)">
                 <a href="showcase.html">
-                    <img src="images/kart1.jpg">
-                    <div class="info"><p class="artist">Jason K.<br>Age 7</p>Man In a Tree</div>
+                    <img src="images/10-13/Danielle Edelstein - Age 13 - The Wrath of Artemis - v.jpg">
+                    <div class="info"><p class="artist">Danielle Edelstein</p><p class="age">Age 13</p><p class="title">The Wrath of Artemis</p></div>
                 </a>
             </div>
             <div class="thumb-container" onclick="storeData(this)">
                 <a href="showcase.html">
-                    <img src="images/kart4.jpg">
-                    <div class="info"><p class="artist">David T.<br>Age 8</p>Striped Forrest</div>
+                    <img src="images/10-13/Efrat Levi - Jerusalem - Aunt Helen's 80th Birthday in the Moon Grove - h.jpg">
+                    <div class="info"><p class="artist">Efrat Levi</p><p class="age"></p><p class="title">Aunt Helen's 80th Birthday in the Moon Grove</p></div>
                 </a>
             </div>
         </div>
         <div class="gallery-column">
             <div class="thumb-container" onclick="storeData(this)">
                 <a href="showcase.html"> 
-                    <img src="images/seasideTown.jpg">
-                    <div class="info"><p class="artist">Jonathan M.<br>Age 12</p>Seaside Town</div>
+                    <img src="images/10-13/Rachel Wiztum - Jerusalem - The Dead Sea - v.png">
+                    <div class="info"><p class="artist">Rachel Wiztum</p><p class="age"></p><p class="title">The Dead Sea</p></div>
                 </a>
             </div>
             <div class="thumb-container" onclick="storeData(this)">
                 <a href="showcase.html">
-                    <img src="images/kart3.jpg">
-                    <div class="info"><p class="artist">Nitzan P.<br>Age 11</p>Happy Town</div>
-                </a>
-            </div>
-            <div class="thumb-container" onclick="storeData(this)">
-                <a href="showcase.html">
-                    <img src="images/dragonShip.jpg">
-                    <div class="info"><p class="artist">Yonah L.<br>Age 9</p>Dragon Ship</div>
+                    <img src="images/10-13/Tamar Azulai - Jerusalem - Wedding During Corona - v.jpg">
+                    <div class="info"><p class="artist">Tamar Azulai</p><p class="age"></p><p class="title">Wedding During Corona</p></div>
                 </a>
             </div>
         </div>
         <div class="gallery-column">
             <div class="thumb-container" onclick="storeData(this)">
                 <a href="showcase.html">
-                    <img src="images/seaCreatures.jpg">
-                    <div class="info"><p class="artist">Rachel S.<br>Age 6</p>Sea Creatures</div>
+                    <img src="images/10-13/Tziryl Deltoff - Age 10 - Blu - v.jpg">
+                    <div class="info"><p class="artist">Tziryl Deltoff</p><p class="age">Age 10</p><p class="title">Blu</p></div>
                 </a>
             </div>
             <div class="thumb-container" onclick="storeData(this)">
                 <a href="showcase.html">
-                    <img src="images/kart2.jfif">
-                    <div class="info"><p class="artist">Orly L.<br>Age 8</p>Big Hearted</div>
+                    <img src="images/10-13/Tziryl Deltoff - Age 10 - Watermelon - h.jpg">
+                    <div class="info"><p class="artist">Tziryl Deltoff</p><p class="age">Age 10</p><p class="title">Watermelon</p></div>
+                </a>
+            </div>
+            <div class="thumb-container" onclick="storeData(this)">
+                <a href="showcase.html">
+                    <img src="images/10-13/Hadas Burstein - Jerusalem - Close Distance - h.jpg">
+                    <div class="info"><p class="artist">Hadas Burstein</p><p class="age"></p><p class="title">Close Distance</p></div>
                 </a>
             </div>
         </div>        
