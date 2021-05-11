@@ -69,7 +69,6 @@ nav {
 .thumb-container img {
     width: 25vw;
     height: 1fr;
-    
 }
 
 .info {
@@ -136,6 +135,20 @@ nav {
 
     .menu {
         display: block;
+    }
+
+    
+    .location {
+        margin: 20px 0 10px 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .loc-item {
+        font-size: 24px;
+        margin: 0 10px;
     }
 
     .gallery {
