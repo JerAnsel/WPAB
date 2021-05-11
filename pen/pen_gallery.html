@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta Cache-Control: no-cache>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="../css/penGallery.css">
+    <title>With Brush and Pen</title>
+    <script src="https://kit.fontawesome.com/6fe49490dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="red-nav">
+        <div class="main-nav">
+            <a href="../index.html">
+                <div class="Logo">
+                    <img src="../logo1.png">
+                    WITH BRUSH AND PEN
+                </div>
+            </a>
+            <a class="menu" href="#" onclick="toggleNav()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+        <div class="links">
+            <div class="dropdown" href="#">
+                <div id="Brush" class="nav-section dropbtn">
+                    <p>With Brush</p>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">6-9</a>
+                    <a href="galleryPaint_10_13.html">10-13</a>
+                    <a>14-18</a>
+                </div>
+            </div>
+            <a href="#">
+                <div id="Pen" class="nav-section">
+                    <p>With Pen</p>
+                </div>
+            </a>
+            <a href="../about.html">
+                <div id="About" class="nav-section">
+                    <p>About</p>
+                </div>
+            </a>
+        </div>
+    </nav>
+    <div class="location"><span class="loc-item">Pen</span></div>
+    <main class="gallery">
+        <div class="gallery-column">
+            <div class="thumb-container" onclick="storeEssayData(this)">
+                <a href="showcase.html"> 
+                    <img src="essay.jpg">
+                    <div class="info"><object><param name="source" value="works/Adien-Leissner-Maus-Essay.html"></object><p class="artist">Rachel Berkowitz</p><p class="age">Age 15</p><p class="title">Corona Blues</p></div>
+                </a>
+            </div>
+            <div class="thumb-container" onclick="storeEssayData(this)">
+                <a href="showcase.html">
+                    <img src="essay.jpg">
+                    <div class="info"><p class="artist">Willow Underwood</p><p class="age"></p><p class="title">Creatures of the Darkness</p></div>
+                </a>
+            </div>
+        </div>
+        <div class="gallery-column">
+            <div class="thumb-container" onclick="storeEssayData(this)">
+                <a href="showcase.html"> 
+                    <img src="essay.jpg">
+                    <div class="info"><p class="artist">Adien Leissner</p><p class="age"></p><p class="title">Maus Essay</p></div>
+                </a>
+            </div>
+        </div>
+        <div class="gallery-column">
+            <div class="thumb-container" onclick="storeEssayData(this)">
+                <a href="showcase.html">
+                    <img src="essay.jpg">
+                    <div class="info"><p class="artist">Noa Burdo-Berger</p><p class="age"></p><p class="title">Red Cobra</p></div>
+                </a>
+            </div>
+        </div>        
+    </main>
+    <script src="../js/nav.js"></script>
+    <script src="../js/showcase-store.js"></script>
+</body>
+</html>
