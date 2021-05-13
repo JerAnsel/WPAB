@@ -5,20 +5,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.red-nav {
-    background-color: rgb(247, 189, 0);
+.blue-nav {
+    background-color: rgb(63, 81, 181);
     color: white;
 }
 
 .nav-section {
-    border-right: 1px solid rgb(255, 202, 26);
+    border-right: 1px solid rgb(73, 91, 191);
 
 }
-
-.location {
-    color: rgb(247, 189, 0);
-}
-
 
 .thumb-container img {
     width: 22vw;
