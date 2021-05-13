@@ -42,10 +42,10 @@ a {
     z-index: 1;
     background-color: brown;
 }
-/* 
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-  } */
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(165, 42, 42) !important;
+  }
 
 .dropdown-content a {
     color: white;
