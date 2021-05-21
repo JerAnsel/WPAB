@@ -92,6 +92,10 @@ nav {
     margin: 0.4em 0 0.2em 0;
 }
 
+.info p {
+    margin: 0.4em 0 0.2em 0;
+}
+
 @media(max-width: 480px) {
     nav {
         display: block;
