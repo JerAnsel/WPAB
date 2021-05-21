@@ -12,6 +12,19 @@
 .gallery div {
     width: 70vw;
     margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px black solid;
+    padding-bottom: 40px;
+}
+
+
+.logo {
+    display: block;
+    width: 300px;
 }
 
 #AACI-logo {
