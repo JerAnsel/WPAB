@@ -3,8 +3,6 @@ function showcase_load_image(){
     let src = sessionStorage.getItem('src');
     let title = sessionStorage.getItem('title');
     let age = sessionStorage.getItem('age')
-    let location = sessionStorage.getItem('location');
-    let gallery_type = sessionStorage.getItem('gallery-type'); 
     
     let showcase_div = document.getElementsByClassName('showcase')[0];
     let img = showcase_div.getElementsByTagName('img')[0];
@@ -23,6 +21,33 @@ function showcase_load_image(){
     age_elem.innerHTML = age;
     let title_elem = showcase_div.getElementsByClassName('title')[0];
     title_elem.innerHTML = title;
+    
+    let map = document.getElementsByClassName('map')[0];
+    
+    if (src.includes('Jerusalem')){
+        map.setAttribute('src', '../outline-jerusalem.jpg')
+    }
+    else if (src.includes('Tel%20Aviv')){
+        map.setAttribute('src', '../outline-tel-aviv.jpg')
+    }
+    else if (src.includes('Carmiel')){
+        map.setAttribute('src', '../outline-carmiel.jpg')
+    }
+    else if (src.includes('Otniel')){
+        map.setAttribute('src', '../outline-otniel.jpg')
+    }
+    else if (src.includes('Shiloh')){
+        map.setAttribute('src', '../outline-shiloh.jpg')
+    }
+
+    if (src.includes('Maus%20Art')){
+        let link = document.createElement('a');
+        link.setAttribute('href', 'https://www.aaciart.net/pen/');
+        link.appendChild(document.createTextNode('Click here to see related essay.'));
+        
+        let info = document.getElementsByClassName('info')[0];
+        info.appendChild(link);
+    }
 }
 
 function showcase_load_essay(){
@@ -64,7 +89,6 @@ function showcase_load_essay(){
 
     let title = sessionStorage.getItem('title');
     let age = sessionStorage.getItem('age')
-    let location = sessionStorage.getItem('location');
     
     let showcase_div = document.getElementsByClassName('showcase')[0];
 
@@ -74,4 +98,23 @@ function showcase_load_essay(){
     age_elem.innerHTML = age;
     let title_elem = showcase_div.getElementsByClassName('title')[0];
     title_elem.innerHTML = title;
+
+    
+    let map = document.getElementsByClassName('map')[0];
+    
+    if (src.includes('Jerusalem')){
+        map.setAttribute('src', '../outline-jerusalem.jpg')
+    }
+    else if (src.includes('Tel%20Aviv')){
+        map.setAttribute('src', '../outline-tel-aviv.jpg')
+    }
+    
+    if (title.includes('Maus Essay')){
+        let link = document.createElement('a');
+        link.setAttribute('href', 'https://www.aaciart.net/brush/galleryPaint_14_18.html');
+        link.appendChild(document.createTextNode('Click here to see related essay.'));
+
+        let info = document.getElementsByClassName('info')[0];
+        info.appendChild(link);
+    }
 }
