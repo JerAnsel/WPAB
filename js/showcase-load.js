@@ -30,8 +30,8 @@ function showcase_load_image(){
     else if (src.includes('Tel%20Aviv')){
         map.setAttribute('src', '../outline-tel-aviv.jpg')
     }
-    else if (src.includes('Carmiel')){
-        map.setAttribute('src', '../outline-carmiel.jpg')
+    else if (src.includes('Karmiel')){
+        map.setAttribute('src', '../outline-Karmiel.jpg')
     }
     else if (src.includes('Otniel')){
         map.setAttribute('src', '../outline-otniel.jpg')
