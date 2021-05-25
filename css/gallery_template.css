@@ -7,6 +7,7 @@ nav {
     font-family: /*'Indie Flower',*/ cursive;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .nav-section {
