@@ -85,13 +85,6 @@ a {
         font-family: cursive;
     }
 
-    .info {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-size: calc(12px + 2vw);
-    }
-
     .artist {
         font-weight: 900;
         margin: 0.4em 0 0.2em 0;

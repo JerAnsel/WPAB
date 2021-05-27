@@ -1,5 +1,5 @@
-@import "gallery_template.css";
 @import "template.css";
+@import "gallery_template.css";
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;

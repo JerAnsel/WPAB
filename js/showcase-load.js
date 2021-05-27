@@ -45,7 +45,7 @@ function showcase_load_image(){
         link.setAttribute('href', 'https://www.aaciart.net/pen/');
         link.appendChild(document.createTextNode('Click here to see related essay.'));
         
-        let info = document.getElementsByClassName('info')[0];
+        let info = document.getElementsByClassName('showcase-info')[0];
         info.appendChild(link);
     }
 }
@@ -114,7 +114,7 @@ function showcase_load_essay(){
         link.setAttribute('href', 'https://www.aaciart.net/brush/galleryPaint_14_18.html');
         link.appendChild(document.createTextNode('Click here to see related essay.'));
 
-        let info = document.getElementsByClassName('info')[0];
+        let info = document.getElementsByClassName('showcase-info')[0];
         info.appendChild(link);
     }
 }

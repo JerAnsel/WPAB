@@ -42,7 +42,7 @@ main::before {
     height: 70vh;
 }
 
-.info {
+.showcase-info {
     background-color: white;
     border: 1px gray solid;
     box-shadow: rgba(0,0,0,0.3) 2px 2px;
@@ -50,12 +50,12 @@ main::before {
     height: fit-content;
     padding: 15px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     width: 20%;
 }
 
-.info a {
+.text-info a {
     color: black;
     text-align: center;
     padding-top: 10px;
@@ -66,6 +66,37 @@ main::before {
     width: 95px;
 }
 
-.info p {
+.text-info p {
     text-align: center;
+}
+
+
+@media(max-width: 480px) {
+
+   .showcase {
+       display: flex;
+       flex-direction: column;
+       margin: 0;
+   }
+
+   .showcase-img-h {
+        margin: 0;
+        height: 40vh;
+    }
+
+    .showcase-img-v {
+        margin: 0;
+        height: 50vh;
+    }
+
+    .showcase-info {
+        flex-direction: row;
+        margin-top: 30px;
+        width: 60%;
+        justify-content: space-between;
+    }
+    
+    .text-info {
+        width: 50%;
+    }
 }
