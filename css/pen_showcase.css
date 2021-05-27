@@ -39,7 +39,9 @@
 @media(max-width: 480px) {
     
 .pen-showcase {
+    display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
 }
 
 }
