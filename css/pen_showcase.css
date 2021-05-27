@@ -38,10 +38,23 @@
 
 @media(max-width: 480px) {
     
-.pen-showcase {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-}
+    .pen-showcase {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    
+    .content {
+        width: 70vw;
+        box-sizing: border-box;
+        margin: 40px 150px 0 0;
+        padding: 30px;
+    }
+
+    .showcase-info {
+        width: 70vw;
+        box-sizing: border-box;
+    }
 
 }
