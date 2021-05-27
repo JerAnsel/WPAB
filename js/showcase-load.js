@@ -90,7 +90,7 @@ function showcase_load_essay(){
     let title = sessionStorage.getItem('title');
     let age = sessionStorage.getItem('age')
     
-    let showcase_div = document.getElementsByClassName('showcase')[0];
+    let showcase_div = document.getElementsByClassName('pen-showcase')[0];
 
     let artist_elem = showcase_div.getElementsByClassName('artist')[0];
     artist_elem.innerHTML = artist;
