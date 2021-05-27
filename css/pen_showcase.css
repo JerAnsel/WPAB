@@ -1,6 +1,15 @@
 @import "showcase_template.css";
 @import "penGallery.css";
 
+
+.pen-showcase {
+    display: flex;
+    margin-left: 10%;
+    flex-direction: row;
+    align-items: center;
+}
+
+
 .content {
     width: 50vw;
 	margin: 40px 150px 70px 70px;
@@ -10,7 +19,7 @@
     box-shadow: rgba(0,0,0,0.3) 2px 2px;
 }
 
-.showcase-info {
+.info {
 	position: fixed;
     top: 40%;
     right: 3%;

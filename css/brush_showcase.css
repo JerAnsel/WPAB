@@ -1,2 +1,20 @@
 @import "showcase_template.css";
 @import "brushGallery.css";
+
+
+.showcase {
+    display: flex;
+    margin-left: 10%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.showcase-img-h {
+    margin-right: 60px;
+    height: 65vh;
+}
+
+.showcase-img-v {
+    margin-right: 100px;
+    height: 70vh;
+}
