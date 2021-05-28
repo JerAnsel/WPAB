@@ -1,3 +1,4 @@
+@import "showcase_template.css";
 @import "brushGallery.css";
 
 
@@ -18,4 +19,32 @@
     height: 70vh;
 }
 
-@import "showcase_template.css";
+@media(max-width: 480px) {
+
+    .showcase {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+ 
+    .showcase-img-h {
+         margin: 0;
+         height: 40vh;
+     }
+ 
+     .showcase-img-v {
+         margin: 0;
+         height: 50vh;
+     }
+ 
+     .showcase-info {
+         flex-direction: row;
+         margin-top: 30px;
+         width: 60%;
+         justify-content: space-between;
+     }
+     
+     .text-info {
+         width: 50%;
+     }
+ }
