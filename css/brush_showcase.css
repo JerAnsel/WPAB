@@ -29,7 +29,8 @@
  
     .showcase-img-h {
          margin: 0;
-         height: 40vh;
+         width: 80vw;
+         height: 35vh;
      }
  
      .showcase-img-v {
