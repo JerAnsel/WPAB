@@ -51,4 +51,8 @@ border-right: 1px solid rgb(0, 189, 196);
     .links {
         display: none;
     }
+
+    .green-nav {
+        height: 10vh;
+    }
 }
