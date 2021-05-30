@@ -104,4 +104,9 @@ a {
         align-items: center;
     }
 
+    .dropdown-content a {
+        border-bottom: 1px solid rgb(192, 36, 36);
+        height: 30%;
+    }
+
 }
