@@ -182,6 +182,10 @@ nav {
 
     } 
 
+    .links {
+        display: none;
+    }
+
     .info {
         display: flex;
         flex-direction: column;
