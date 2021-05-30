@@ -89,6 +89,10 @@ a {
         font-weight: 900;
         margin: 0.4em 0 0.2em 0;
     }
+
+    .links {
+        display: none;
+    }
     
     .dropdown:hover .dropdown-content {
         display: flex;
