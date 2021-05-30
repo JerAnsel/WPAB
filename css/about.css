@@ -1,6 +1,5 @@
-@import "template.css";
 @import "gallery_template.css";
-
+@import "template.css";
 
 .gallery {
     display: flex;
