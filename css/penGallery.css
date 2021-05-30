@@ -73,8 +73,8 @@ object {
     }
 
     .nav-section {
-        border-bottom: 1px solid rgb(192, 36, 36);
-        background-color: rgb(165, 42, 42);
+        background-color: rgb(63, 81, 181);
+        border-right: 1px solid rgb(73, 91, 191);
         border-right: none;
     }
 
