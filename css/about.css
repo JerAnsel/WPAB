@@ -20,6 +20,9 @@
     padding-bottom: 40px;
 }
 
+a {
+    color: blue;
+}
 
 .logo {
     display: block;
